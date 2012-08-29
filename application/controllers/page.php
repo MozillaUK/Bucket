@@ -148,8 +148,15 @@
 			$this->load->view('theme/basic/generic', $data);
 		}
 		
-		public function about() {
-			$data['page'] = $this->load->view('page/about', $data, TRUE);
+		/**
+		 * Display about page
+		 *
+		 * Currently set to redirect to mozilla mission temporarily
+		 */
+		public function about()
+		{
+			redirect('https://www.mozilla.org/mission', 'location', 307);
+			$data['page'] = $this->load->view('page/about', NULL, TRUE);
 			$this->load->view('theme/basic/generic', $data);
 		}
 	}
