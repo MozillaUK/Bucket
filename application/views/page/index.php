@@ -120,7 +120,7 @@
 
 
 
-<?php $this->start_block('promo'); ?>
+<?php /* $this->start_block('promo'); ?>
 <section id="home-promo" class="pager pager-with-tabs pager-auto-rotate pager-no-history">
 
 	<div class="pager-content">
@@ -201,7 +201,7 @@
 	</ul>
 
 </section>
-<?php $this->end_block('promo'); ?>
+<?php $this->end_block('promo'); */ ?>
 
 <?php $this->start_block('content'); ?>
 <section id="home-news">
