@@ -246,6 +246,8 @@
 <?php endif; ?>
 
 <section id="home-get-involved">
+	<h3>Join our Mailing List:</h3>
+  <h4><a href="https://lists.mozilla.org/listinfo/community-uk">community-uk@lists.mozilla.org</a></h4>
 	<h3 class="dinohead">Get Involved</h3>
 	<p>You don’t have to be a C++ guru (or even know what that means!) to get involved. You just have to love the web.</p>
 	<a href="https://www.mozilla.org/en-GB/contribute/" id="contribute">Find an opportunity »</a>
